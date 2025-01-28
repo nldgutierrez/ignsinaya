@@ -6,57 +6,111 @@
     <title>IGN: Sinaya</title>
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div class="grid">
         <header>
             <div class="header-logo">
-                <img src="./media/images/brand-marque.png" alt="">
+                <img class="logo" src="./media/images/brand-marque.png" alt="">
             </div>
             <nav>
                 <menu>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Schedule</a></li>
-                    <li><a href="">Clips</a></li>
-                    <li><a href="">Community</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a class="subheading" href="">About</a></li>
+                    <li><a class="subheading" href="">Schedule</a></li>
+                    <li><a class="subheading" href="">Clips</a></li>
+                    <li><a class="subheading" href="">Community</a></li>
+                    <li><a class="subheading" href="">Blog</a></li>
+                    <li><a class="subheading" href="">Contact</a></li>
                 </menu>
             </nav>
         </header>
 
-        
-        <section class="hero-image">
-            <img src="./media/images/Sinaya.png" alt="">
+
+        <section class="hero">
+            <div>
+                <img src="./media/images/Sinaya.png" alt="">
+            </div>
         </section>
 
         <section class="hero-text">
-            <h1 class="heading">IGN: Sinaya</h1>
-            <h2 class="subheading">1% gaming, 99% screaming</h2>
-            <p>Welcome to my chaotic corner of the internet! Let's get into some fun gameplay and plenty of laughs.</p>
-            <a class="cta" href="">Watch Live on Twitch</a>
+            <div>
+                <h1 class="heading">IGN: Sinaya</h1>
+                <h2 class="subheading">1% gaming, 99% screaming</h2>
+                <p class="body-copy">Welcome to my chaotic corner of the Internet! Let's get into some fun gameplay and plenty of laughs.</p>
+                <a class="cta" href="">Watch Live on Twitch</a>
+            </div>
         </section>
 
         <section class="intro">
-            <h2 class="subheading">Intro</h2>
-            <p>Hey there, I'm Sinaya, your new favorite casual gamer from the Philippines!</p>
-            <p>If you're looking for hardcore, competitive gameplay... I might not be the one. But if you want a laid-back, fun atmosphere filled with bad puns, epic fails, and good vibes, then buckle up and grab your snacks! I play a mix of MMOs, RPGs, Survival, Base-building, FPS & more, but I'm always up for trying something new and chatting about random stuff.</p>
-            <p>So, let's hang out and have a blast! Don't forget to hit follow if you enjoy the content (and my very questionable gaming skills).</p>
-            <a class="cta" href="">Follow on Twitch</a>
-            <div class="image">
-                <img src="./media/images/Cover photo.png" alt="">
+            <div class="intro-text">
+                <h2 class="subheading">Intro</h2>
+                <p class="body-copy">Hey there, I'm Sinaya, your new favorite casual gamer from the Philippines!<br><br>If you're looking for hardcore, competitive gameplay... I might not be the one. But if you want a laid-back, fun atmosphere filled with bad puns, epic fails, and good vibes, then buckle up and grab your snacks! I play a mix of MMOs, RPGs, Survival, Base-building, FPS & more, but I'm always up for trying something new and chatting about random stuff.<br><br>So, let's hang out and have a blast! Don't forget to hit follow if you enjoy the content (and my very questionable gaming skills).</p>
+                <a class="cta" href="">Follow on Twitch</a>
+                <div class="intro-image">
+                    <img src="./media/images/Cover photo.png" alt="">
+                </div>
             </div>
         </section>
 
         <section class="highlight">
-            <h2 class="subheading">Latest Stream Highlight</h2>
-            <p>Watch my latest "totally pro" moment from the stream~</p>
-            <iframe src="https://clips.twitch.tv/embed?clip=FrozenHealthyBasenjiKlappa-Rq6QqJgIr0ymePPP&parent=nldgutierrez.github.io" frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
-            <a class="cta" href="">Watch More Highlights</a>
             <div>
-                <img src="./media/images/brand-marque.png" alt="">
+                <h2 class="subheading">Latest Stream Highlight</h2>
+                <p class="body-copy">Watch my latest "totally pro" moment from the stream!<br><br>(Hint: Expect some rage quits and victory dances that are more funny than victorious.)</p>
+                <iframe src="https://clips.twitch.tv/embed?clip=FrozenHealthyBasenjiKlappa-Rq6QqJgIr0ymePPP&parent=127.0.0.1" frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
+                <a class="cta" href="">Watch More Highlights</a>
+                <div class="highlight-image">
+                    <img src="./media/images/brand-marque.png" alt="">
+                </div>
             </div>
         </section>
+
+        <footer>
+            <div class="wordmark-text">
+                <div>
+                    <img src="./media/images/wordmark-02.png" alt="">
+                </div>
+                <p>&copy; 2025 IGN: Sinaya.<br>Powered by fun and chaos.</p>
+            </div>
+
+            <div class="newsletter">
+                <div>
+                    <p class="subheading">Join the Saltwater Stream</p>
+                    <p>Dive into Sinaya's salty (but fun) world! Get updates, laughs, and all the stream chaos delivered with a splash.</p>
+                </div>
+                <div>
+                    <form action="">
+                        <div>
+                            <label for="email">
+                                <input class="email" type="email" placeholder="Your email">
+                            </label>
+                        </div>
+                        <div>
+                            <input class="cta" type="submit" value="Subscribe">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-nav">
+                <ul>
+                    <li><a class="subheading" href="">About</a></li>
+                    <li><a class="subheading" href="">Schedule</a></li>
+                    <li><a class="subheading" href="">Clips</a></li>
+                </ul>
+                <ul>
+                    <li><a class="subheading" href="">Community</a></li>
+                    <li><a class="subheading" href="">Blog</a></li>
+                    <li><a class="subheading" href="">Contact</a></li>
+                </ul>
+            </div>
+
+        </footer>
 
     </div>
 </body>
